@@ -84,5 +84,5 @@ if __name__ == "__main__":
     image =  Image.open(args["file"])
     exif_data = get_exif_data(image)
     lat,lon=get_lat_lon(exif_data)
-    print(re.sub(r'.*/','',args["file"]),lat,lon)
+    print("{:s}\t{:6f}\t{:6f}".format(re.sub(r'.*/','',args["file"]),lat,lon))
 
