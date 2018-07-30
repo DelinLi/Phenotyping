@@ -12,8 +12,8 @@
 
 #### Set up the Raspberry Tips
 1. enable SSH for a headless raspberry pi. vi add an empty file named "**ssh**" to the SD card (**boot**)
-2. add an fix IP via add "IIP=XXX.XXX.XXX.XXX" to the end of file "**cmdline.txt**" on the SD card (**boot**)
-3. For users addressing that could not use the defualt user. [change mirrors online source](https://blog.csdn.net/la9998372/article/details/77886806/)
+2. add an fix IP via add "IP=XXX.XXX.XXX.XXX" to the end of file "**cmdline.txt**" on the SD card (**boot**)
+3. For users addressing that could not use the defualt mirrow for **apt-get**. [change mirrors online source](https://blog.csdn.net/la9998372/article/details/77886806/)
 <pre>
 sudo vi /etc/apt/sources.list
 comment the previous files with "#", add:
@@ -44,3 +44,33 @@ sudo raspi-config #enable via "Interfacing Options" -> VNC ->yes
 
 #### How to Clone Raspberry Pi SD Cards Using the Command Line in OS X 
 [**From Online source**](https://computers.tutsplus.com/articles/how-to-clone-raspberry-pi-sd-cards-using-the-command-line-in-os-x--mac-59911)
+
+
+#### Sensors
+##### Temparature and Humidity
+*From oline [**source**](https://tutorials-raspberrypi.com/raspberry-pi-measure-humidity-temperature-dht11-dht22/)*
+
+1. setup of sensor 
+DHT11 was used here, it is cheaper but also lower acuracy tha DHT22.
+    a. DHT11Range and Acuracy : Humidity:  20---90%, ±5%RH; Temperature 0-50℃,±2℃
+    b. Connection: **VCC/+** connect to 3.3V Power (Pin1); **GND/-** connect to Ground(-) (Pin6); **OUT** connect to (Pin7/GPIO4)  
+2. software Installation 
+<pre>
+sudo apt-get update
+sudo apt-get install build-essential python-dev python-openssl git
+
+git clone https://github.com/adafruit/Adafruit_Python_DHT.git && cd Adafruit_Python_DHT
+sudo python setup.py install
+
+##test command/codes for the DHT11  
+cd examples
+sudo ./AdafruitDHT.py 11 4 
+Temp=24.0*  Humidity=41.0%
+
+##equally python code
+import Adafruit_DHT
+sensor = Adafruit_DHT.DHT11
+pin = 4
+humidity, temperature = Adafruit_DHT.read_retry(sensor, pin)
+</pre>
+
