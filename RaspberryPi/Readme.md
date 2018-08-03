@@ -41,11 +41,43 @@ sudo raspi-config #enable via "Interfacing Options" -> VNC ->yes
 
 5. use VIM (*personaly choice*) `sudo apt-get install vim` and add `alias "vi"="vim"` into ~/.bashrc
 
-
+-----------
 #### How to Clone Raspberry Pi SD Cards Using the Command Line in OS X 
 [**From Online source**](https://computers.tutsplus.com/articles/how-to-clone-raspberry-pi-sd-cards-using-the-command-line-in-os-x--mac-59911)
 
+-----------
+#### Build a Python webcam Server [**source**](https://www.instructables.com/id/How-to-Make-Raspberry-Pi-Webcam-Server-and-Stream-/)
+<pre>
+#installation
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install motion
 
+#configure file "/etc/motion/motion.conf"
+daemon on
+framerate 1000
+stream_port  8081
+stream_quality 100
+stream_localhost off
+webcontrol_localhost off
+quality 100
+width 640
+height 480
+post_capture 5
+#/etc/default/motion
+start_motion_daemon yes
+
+#start
+sudo service motion restart
+#for unable to find device
+sudo modprobe bcm2835-v4l2
+
+#online
+XXX.XXX.XXX.yourIP:8081 
+</pre>
+
+
+-----------
 #### Sensors
 ##### Temparature and Humidity
 *From oline [**source**](https://tutorials-raspberrypi.com/raspberry-pi-measure-humidity-temperature-dht11-dht22/)*
@@ -74,3 +106,24 @@ pin = 4
 humidity, temperature = Adafruit_DHT.read_retry(sensor, pin)
 </pre>
 
+##### Sound sensor [soure](https://www.instructables.com/id/Sound-Sensor-Raspberry-Pi/) 
+
+##### Amazing Xiaomi Mi Flora (花花草草智能检测仪 39RMB 201807JinDong Price)
+This is a vey low cost device provide you four factor *tempreature*, *moisture*, *conductivity* and *brightness*. It also provide a free app to read, store those data and give suggestion for your certain plant. Here [MiFlora github project](https://github.com/open-homeautomation/miflora) was used. Also followed steps from [Blog](https://zsiti.eu/xiaomi-miflora-plant-sensor-pimatic-raspberry-pi-3/)
+
+1. get the Mac address of MiLora
+<pre>
+sudo hcitool lescan
+C4:7C:8D:64:76:67 Flower care
+</pre>
+2. set up the **MiFlora** library (great thanks) 
+*assuming you have python3 on your Raspberry Pi*
+<pre>
+git clone https://github.com/open-homeautomation/miflora.git
+cd miflora/
+#install depenency
+pip3 install btlewrap
+#run
+python3 demo.py --backend gatttool poll C4:7C:8D:64:76:67
+</pre>
+####The RaspberryPi Car
