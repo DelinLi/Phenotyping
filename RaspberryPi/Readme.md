@@ -1,5 +1,5 @@
 ### Command line Installation of OS on Mac  [**From Online source**](https://www.raspberrypi.org/documentation/installation/installing-images/mac.md)
-
+*my versionRaspbian GNU/Linux 9.4 (stretch)*
 --------
 #### Prepare the OS on a SD card
 
