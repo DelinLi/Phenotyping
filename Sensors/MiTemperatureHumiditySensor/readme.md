@@ -16,3 +16,8 @@ see `example.py`
 
 ### Example for [read data and upload to ThingSpeak.com]()
 see `MiTempHumi_ThingSpeak.py`
+
+
+### Version
+OS for Raspberry Pi: **Raspbian GNU/Linux 9.4 (stretch)**
+Python version 3.5+

@@ -25,4 +25,5 @@ python3 demo.py --backend gatttool poll C4:7C:8D:64:76:67
 
 
 ### Version
-*my versionRaspbian GNU/Linux 9.4 (stretch)*
+OS for Raspberry Pi: **Raspbian GNU/Linux 9.4 (stretch)**
+Python version 3.5+
