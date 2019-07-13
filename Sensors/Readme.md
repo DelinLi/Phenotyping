@@ -9,25 +9,25 @@ ThingSpeak is an open source “Internet of Things” application and API to sto
 Please see the [offical documentation](https://www.mathworks.com/help/thingspeak/use-raspberry-pi-board-that-runs-python-websockets-to-publish-to-a-channel.html)) on how to use WebSockets on port 80 to publish to a ThingSpeak™ channel using a Raspberry Pi™ board that runs Python
 
 #### set up
-sudo pip3 install mqtt-paho
-sudo pip3 install psutil
+sudo pip3 install mqtt-paho   
+sudo pip3 install psutil   
 
 #### Codes Example 
 [MiTempHumi_ThingSpeak.py](/Sensors/MiTemperatureHumiditySensor/MiTempHumi_ThingSpeak.py)
 
 ### Sensor -- Xiaomi Mi Temperature and Humidity Sensor
 ![Xiaomi Mi Temperature and Humidity Sensor](/figures/Mi-Temperature-Humidity-Sensor.jpg)
-Subject:**Temperature** & **Humidity** 
-Bluetooth
-Last more than one year with one AAA battery
+Subject:**Temperature** & **Humidity**    
+Bluetooth   
+Last more than one year with one AAA battery   
 
 
 ### Sensor -- Xiaomi Mi Flora
 ![Xiaomi Mi Flora](/figures/MiFlora.jpg)
-Subject:**Temperature** & **Light** & **Soil Moisture** & **Conducctivity**
-Bluetooth
-Last more than one year with one button battery
+Subject:**Temperature** & **Light** & **Soil Moisture** & **Conducctivity**   
+Bluetooth   
+Last more than one year with one button battery   
 
 ### Version
-OS for Raspberry Pi: **Raspbian GNU/Linux 9.4 (stretch)**
+OS for Raspberry Pi: **Raspbian GNU/Linux 9.4 (stretch)**   
 Python version 3.5+
