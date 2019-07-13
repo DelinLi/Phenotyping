@@ -3,7 +3,6 @@ import paho.mqtt.publish as publish
 import psutil
 import string
 from datetime import datetime
-#from btlewrap import available_backends, BluepyBackend, GatttoolBackend, PygattBackend
 from btlewrap import  BluepyBackend, GatttoolBackend
 
 
@@ -14,20 +13,20 @@ string.alphanum = '1234567890avcdefghijklmnopqrstuvwxyzxABCDEFGHIJKLMNOPQRSTUVWX
 
 # The ThingSpeak Channel ID.
 # Replace <YOUR-CHANNEL-ID> with your channel ID.
-channelID = "822873"
+channelID = "XXXXXX"
 
 # The write API key for the channel.
 # Replace <YOUR-CHANNEL-WRITEAPIKEY> with your write API key.
-writeAPIKey = "OO64AM6ZJD355OTC"
+writeAPIKey = "XXXXXXXX"
 
 # The hostname of the ThingSpeak MQTT broker.
 mqttHost = "mqtt.thingspeak.com"
 
 # You can use any username.
-mqttUsername = "DL-Pi2-TempHum"
+mqttUsername = "DL-Pi2"
 
 # Your MQTT API key from Account > My Profile.
-mqttAPIKey = "6CFEOTALF4PUK3YP"
+mqttAPIKey = "XXXXXXXX"
 
 tTransport = "websockets"
 tPort = 80
