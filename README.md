@@ -4,21 +4,19 @@ Genetics Researchers embarrassed with high throughput sequencing revolution for 
 ### [Raspberry Pi](/RaspberryPi)
 
 [Raspberry Pi 3B + For this Project](/RaspberryPi)   
-<img src="/figures/RaspberryPi3B+.jpg"  width="400" height="300">   
+[<img src="/figures/RaspberryPi3B+.jpg"  width="400" height="300">](/RaspberryPi)   
 
 ### Cameras
 
 ### [Sensors](/Sensors)
 [**Temperature** and **Humidity** Sensor -- BlueTooth/Wireless](/Sensors/MiTemperatureHumiditySensor)    
-<img src="/figures/Mi-Temperature-Humidity-Sensor.jpg"  width="300" height="300">   
+[<img src="/figures/Mi-Temperature-Humidity-Sensor.jpg"  width="300" height="300">](/Sensors/MiTemperatureHumiditySensor)    
 [**Temperature** & **Light** & **Soil Moisture** & **Soil Conducctivity** -- BlueTooth/Wireless  ](/Sensors/Miflora/)  
-<img src="/figures/MiFlora.jpg"  width="300" height="500">   
-
+[<img src="/figures/MiFlora.jpg"  width="300" height="600">](/Sensors/Miflora/)     
 [**Temperature** & **Humidity** Sensor -- Wire required ](/Sensors/DHT11/)    
-[<img src="/figures/DHT11.jpg"  width="300" height="500">](/Sensors/DHT11/)      
+[<img src="/figures/DHT11.jpg"  width="300" height="140">](/Sensors/DHT11/)      
 **Sound Sensor for Distance** -- Wire required   
-![Sound sensor](/figures/SoundSensor.jpg =200x180) 
-
+<img src="/figures/SoundSensor.jpg"  width="300" height="140">   
 ### Computer Vision
 
 ### Deep Learning

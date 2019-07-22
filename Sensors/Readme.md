@@ -9,21 +9,21 @@ I want to collect some sensors that could easily read by raspberry pi (3B+) usin
 
 
 ### Sensor -- [Xiaomi Mi Temperature and Humidity Sensor](/Sensors/MiTemperatureHumiditySensor/)
-![Xiaomi Mi Temperature and Humidity Sensor](/figures/Mi-Temperature-Humidity-Sensor.jpg =300x300)   
+[<img src="/figures/Mi-Temperature-Humidity-Sensor.jpg"  width="300" height="300">](/Sensors/MiTemperatureHumiditySensor)    
 Subject:**Temperature** & **Humidity**    
 Read data by Bluetooth   
 Last more than one year with one AAA battery   
 
 
 ### Sensor -- [Xiaomi Mi Flora](/Sensors/Miflora/)
-![Xiaomi Mi Flora](/figures/MiFlora.jpg =300x500)   
+[<img src="/figures/MiFlora.jpg"  width="300" height="600">](/Sensors/Miflora/)   
 Subject:**Temperature** & **Light** & **Soil Moisture** & **Conducctivity**   
 Read data by Bluetooth   
 Last more than one year with one button battery   
 
 
 ### Sensor -- [DHT11](/Sensors/DHT11/)
-![DHT11](/figures/DHT11.jpg)   
+[<img src="/figures/DHT11.jpg"  width="300" height="140">](/Sensors/DHT11/)    
 Subject:**Temperature** & **Humidity**  
 Read Data by Wire
 
@@ -31,7 +31,7 @@ Read Data by Wire
 ### Sensor -- Sound for Distance 
 [soure](https://www.instructables.com/id/Sound-Sensor-Raspberry-Pi/)   
 Subject: Distance
-![Sound sensor](/figures/SoundSensor.jpg)  
+<img src="/figures/SoundSensor.jpg"  width="300" height="140">    
 
 ### Version
 OS for Raspberry Pi: **Raspbian GNU/Linux 9.4 (stretch)**   
