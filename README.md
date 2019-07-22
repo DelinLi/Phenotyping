@@ -3,23 +3,22 @@ Genetics Researchers embarrassed with high throughput sequencing revolution for 
 
 ### [Raspberry Pi](/RaspberryPi)
 
-Raspberry Pi 3B + For this Project   
-[![Raspberry Pi 3B +](/figures/RaspberryPi3B+.jpg =400x300)](/RaspberryPi)
+[Raspberry Pi 3B + For this Project](/RaspberryPi)   
+![Raspberry Pi 3B +](/figures/RaspberryPi3B+.jpg =400x300)
 
 ### Cameras
 
 ### [Sensors](/Sensors)
-**Temperature** and **Humidity** Sensor -- BlueTooth/Wireless
-[![Xiaomi Mi Temperature and Humidity Sensor](/figures/Mi-Temperature-Humidity-Sensor.jpg =300x300) ](/Sensors/MiTemperatureHumiditySensor)
+[**Temperature** and **Humidity** Sensor -- BlueTooth/Wireless](/Sensors/MiTemperatureHumiditySensor)   
+![Xiaomi Mi Temperature and Humidity Sensor](/figures/Mi-Temperature-Humidity-Sensor.jpg =300x300)   
+[**Temperature** & **Light** & **Soil Moisture** & **Soil Conducctivity** -- BlueTooth/Wireless  ](/Sensors/Miflora/)  
+![Xiaomi Mi Flora Sensor](/figures/MiFlora.jpg =300x500)
 
-**Temperature** & **Light** & **Soil Moisture** & **Soil Conducctivity** -- BlueTooth/Wireless   
-[![Xiaomi Mi Flora Sensor](/figures/MiFlora.jpg =300x500) ](/Sensors/Miflora/)
-
-**Temperature** & **Humidity** Sensor -- Wire required  
-[![DHT11](/figures/DHT11.jpg =300x150)](/Sensors/DHT11/)   
+[**Temperature** & **Humidity** Sensor -- Wire required ](/Sensors/DHT11/)    
+![DHT11](/figures/DHT11.jpg =300x150)
 
 **Sound Sensor for Distance** -- Wire required   
-[![Sound sensor](/figures/SoundSensor.jpg =200x180)]()  
+![Sound sensor](/figures/SoundSensor.jpg =200x180) 
 
 ### Computer Vision
 
