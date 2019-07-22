@@ -3,8 +3,10 @@ Genetics Researchers embarrassed with high throughput sequencing revolution for 
 
 ### [Raspberry Pi](/RaspberryPi)
 
-[Raspberry Pi 3B + For this Project](/RaspberryPi)   
+[Raspberry Pi 3B + For this Project](/RaspberryPi)     
+OS for Raspberry Pi: Raspbian GNU/Linux 9.4 (stretch)   
 [<img src="/figures/RaspberryPi3B+.jpg"  width="400" height="300">](/RaspberryPi)   
+
 
 ### Cameras
 
