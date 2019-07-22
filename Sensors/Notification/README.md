@@ -1,4 +1,4 @@
-### (ThingSpeak Analyze Channel Data to Send Email Notification from IFTTT](https://ww2.mathworks.cn/help/thingspeak/analyze-channel-data-to-send-email-notification-from-ifttt.html)
+### [ThingSpeak Analyze Channel Data to Send Email Notification from IFTTT](https://ww2.mathworks.cn/help/thingspeak/analyze-channel-data-to-send-email-notification-from-ifttt.html)
 
 Solution for Situation You needs temperature alter of green house? Water reminder for palnt with low soil mositure 
 #### ThingSpeak Analyze Channel Data   
