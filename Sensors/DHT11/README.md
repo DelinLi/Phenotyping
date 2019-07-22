@@ -1,5 +1,6 @@
 ### DHT11 -- Temparature and Humidity
-*From oline [**source**](https://tutorials-raspberrypi.com/raspberry-pi-measure-humidity-temperature-dht11-dht22/)*
+**From oline [**source**](https://tutorials-raspberrypi.com/raspberry-pi-measure-humidity-temperature-dht11-dht22/)**
+[<img src="/figures/DHT11.jpg"  width="300" height="140">](/Sensors/DHT11/)
 
 #### 1. setup of sensor
 DHT11 was used here, it is cheaper but also lower acuracy tha DHT22.

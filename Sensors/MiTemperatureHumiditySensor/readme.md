@@ -1,6 +1,5 @@
 ## Xiaomi Mi Temperature and Humidity Sensor 
 ![Xiaomi Mi Temperature and Humidity Sensor](/figures/Mi-Temperature-Humidity-Sensor.jpg)
- 
 
 [ratcashdev](https://github.com/ratcashdev) made a libarary named [**mitemp_bt**](https://github.com/ratcashdev/mitemp) for this purpose.
 
