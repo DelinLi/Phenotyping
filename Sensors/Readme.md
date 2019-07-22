@@ -31,7 +31,7 @@ Read Data by Wire
 ### Sensor -- Sound for Distance 
 [soure](https://www.instructables.com/id/Sound-Sensor-Raspberry-Pi/)   
 Subject: Distance
-<img src="/figures/SoundSensor.jpg"  width="300" height="140">    
+<img src="/figures/SoundSensor.jpg"  width="200" height="200">  
 
 ### Version
 OS for Raspberry Pi: **Raspbian GNU/Linux 9.4 (stretch)**   

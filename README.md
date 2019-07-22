@@ -16,7 +16,7 @@ Genetics Researchers embarrassed with high throughput sequencing revolution for 
 [**Temperature** & **Humidity** Sensor -- Wire required ](/Sensors/DHT11/)    
 [<img src="/figures/DHT11.jpg"  width="300" height="140">](/Sensors/DHT11/)      
 **Sound Sensor for Distance** -- Wire required   
-<img src="/figures/SoundSensor.jpg"  width="300" height="140">   
+<img src="/figures/SoundSensor.jpg"  width="200" height="200">    
 ### Computer Vision
 
 ### Deep Learning
