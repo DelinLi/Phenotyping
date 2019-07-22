@@ -4,19 +4,18 @@ Genetics Researchers embarrassed with high throughput sequencing revolution for 
 ### [Raspberry Pi](/RaspberryPi)
 
 [Raspberry Pi 3B + For this Project](/RaspberryPi)   
-![Raspberry Pi 3B +](/figures/RaspberryPi3B+.jpg =400x300)
+<img src="/figures/RaspberryPi3B+.jpg"  width="400" height="300">   
 
 ### Cameras
 
 ### [Sensors](/Sensors)
-[**Temperature** and **Humidity** Sensor -- BlueTooth/Wireless](/Sensors/MiTemperatureHumiditySensor)   
-![Xiaomi Mi Temperature and Humidity Sensor](/figures/Mi-Temperature-Humidity-Sensor.jpg =300x300)   
+[**Temperature** and **Humidity** Sensor -- BlueTooth/Wireless](/Sensors/MiTemperatureHumiditySensor)    
+<img src="/figures/Mi-Temperature-Humidity-Sensor.jpg"  width="300" height="300">   
 [**Temperature** & **Light** & **Soil Moisture** & **Soil Conducctivity** -- BlueTooth/Wireless  ](/Sensors/Miflora/)  
-![Xiaomi Mi Flora Sensor](/figures/MiFlora.jpg =300x500)
+<img src="/figures/MiFlora.jpg"  width="300" height="500">   
 
 [**Temperature** & **Humidity** Sensor -- Wire required ](/Sensors/DHT11/)    
-![DHT11](/figures/DHT11.jpg =300x150)
-
+[<img src="/figures/DHT11.jpg"  width="300" height="500">](/Sensors/DHT11/)      
 **Sound Sensor for Distance** -- Wire required   
 ![Sound sensor](/figures/SoundSensor.jpg =200x180) 
 
