@@ -13,7 +13,19 @@
 #### Set up the Raspberry Tips
 1. enable SSH for a headless raspberry pi. vi add an empty file named "**ssh**" to the SD card (**boot**)
 2. add an fix IP via add "IP=XXX.XXX.XXX.XXX" to the end of file "**cmdline.txt**" on the SD card (**boot**)
-3. For users addressing that could not use the defualt mirrow for **apt-get**. [change mirrors online source](https://blog.csdn.net/la9998372/article/details/77886806/)
+3. [Set up the wifi](https://www.raspberrypi-spy.co.uk/2017/04/manually-setting-up-pi-wifi-using-wpa_supplicant-conf/) with passwd for a headless raspberyy pi. Create a file"**wpa_supplicant.conf**" on the SD card (**boot**). And set:      
+<pre>
+country=us
+update_config=1
+ctrl_interface=/var/run/wpa_supplicant
+
+network={
+	scan_ssid=1
+	ssid="MyWiFiNetwork"  ##wifi name
+	psk="aVeryStrongPassword" ##wifi passwd
+}
+</pre>   
+4. For users addressing that could not use the defualt mirrow for **apt-get**. [change mirrors online source](https://blog.csdn.net/la9998372/article/details/77886806/)
 <pre>
 sudo vi /etc/apt/sources.list
 comment the previous files with "#", add:
