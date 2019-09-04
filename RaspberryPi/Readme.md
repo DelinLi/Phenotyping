@@ -78,6 +78,16 @@ XXX.XXX.XXX.yourIP:8081
 
 
 -----------
+#### How to Read file of Raspberry Pi SD Cards on OS X 
+**My SD card broken and failed to open with "low voltage error", and I still need some important files**
+[**From Online source**](https://www.jeffgeerling.com/blog/2017/mount-raspberry-pi-sd-card-on-mac-read-only-osxfuse-and-ext4fuse)
+1. install FUSE for Mac   
+2. Use command line `diskutil list` determin the partition ID of Raspberry Pi     
+3. Create a 'mount point' -- `sudo mkdir /Volumes/rpi`   
+4. Mount: `ext4fuse: sudo ext4fuse /dev/disk2s2 /Volumes/rpi -o allow_other`   
+5. Access the file "/Volumes/rpi" and don't forget un-mout `sudo umount /Volumes/rpi`   
+
+-----------
 #### Sensors
 ##### Temparature and Humidity
 *From oline [**source**](https://tutorials-raspberrypi.com/raspberry-pi-measure-humidity-temperature-dht11-dht22/)*
