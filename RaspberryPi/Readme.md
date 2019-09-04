@@ -12,7 +12,12 @@
 
 #### Set up the Raspberry Tips
 1. enable SSH for a headless raspberry pi. vi add an empty file named "**ssh**" to the SD card (**boot**)
-2. add an fix IP via add "IP=XXX.XXX.XXX.XXX" to the end of file "**cmdline.txt**" on the SD card (**boot**)
+2. add an fix IP via add "IP=XXX.XXX.XXX.XXX" to the end of file "**cmdline.txt**" on the SD card (**boot**) or below line in `sudo vi /etc/dhcpcd.conf`   
+<pre>
+static ip_address=192.168.1.162/24
+static routers=192.168.1.1
+static domain_name_servers=192.168.1.1
+</pre>   
 3. [Set up the wifi](https://www.raspberrypi-spy.co.uk/2017/04/manually-setting-up-pi-wifi-using-wpa_supplicant-conf/) with passwd for a headless raspberyy pi. Create a file"**wpa_supplicant.conf**" on the SD card (**boot**). And set:      
 <pre>
 country=us
