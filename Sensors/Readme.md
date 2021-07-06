@@ -5,8 +5,8 @@ I want to collect some sensors that could easily read by raspberry pi (3B+) usin
 [ThingSpeak.COM](https://github.com/iobridge/thingspeak) is an open source “Internet of Things” application and API to store and retrieve data from things using HTTP over the Internet or via a Local Area Network. With ThingSpeak, you can create sensor logging applications, location tracking applications, and a social network of things with status updates. (From [ThingSpeak](https://github.com/iobridge/thingspeak/blob/master/README.textile))   
 
 ### [Notification ](/Sensors/Notification/)
-[ThingSpeak Analyze Channel Data to Send Email Notification from IFTTT](https://ww2.mathworks.cn/help/thingspeak/analyze-channel-data-to-send-email-notification-from-ifttt.html) 
-
+1. [ThingSpeak Analyze Channel Data to Send Email Notification from IFTTT](https://ww2.mathworks.cn/help/thingspeak/analyze-channel-data-to-send-email-notification-from-ifttt.html) 
+2. add a [ptyhon script](/Sensors/IFTTT/ifttt.py) to trigger my IFTTT ServerProcess event, which will send telegraph messeage and gamil email. alternative solution on [IFTTT](https://maker.ifttt.com/use/MYAPIKEY)   
 
 ### Sensor -- [Xiaomi Mi Temperature and Humidity Sensor](/Sensors/MiTemperatureHumiditySensor/)
 [<img src="/figures/Mi-Temperature-Humidity-Sensor.jpg"  width="300" height="300">](/Sensors/MiTemperatureHumiditySensor)    
