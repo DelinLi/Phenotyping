@@ -22,7 +22,7 @@ time.sleep(0.5)
 devices = ow_bus.scan()
 ds18 = DS18X20(ow_bus, devices[0])
 
-i2c = busio.I2C(board.GP15, board.GP14)
+i2c = busio.I2C(board.P15, board.GP14)
 time.sleep(0.5)
 light = adafruit_tsl2561.TSL2561(i2c)
 
@@ -45,4 +45,3 @@ led.value = False
 
 # Deep sleep until the alarm goes off. Then restart the program.
 alarm.exit_and_deep_sleep_until_alarms(time_alarm)
-
