@@ -44,8 +44,10 @@ except:
 
 #### 2.4 the soil temperature in two depths
 ##two sensors shared the same data wire, should manually order them by depth 
-ow_bus_dp = OneWireBus(board.GP18)
-devices_dp = ow_bus_dp.scan()
+ow_bus_dp_1 = OneWireBus(board.GP16)
+devices_dp_1 = ow_bus_dp_1.scan()
+ow_bus_dp_2 = OneWireBus(board.GP17)
+devices_dp_2 = ow_bus_dp_2.scan()
 
 
 #### 2.5 the soil moisture in two depths
@@ -60,18 +62,18 @@ conversion_factor = 3.3 / 65535  # conversion between actual voltage (0-3.3v) an
 # dry_28=430
 
 sensor_signal_26 = AnalogIn(board.GP26)  # * a_26 - b_26
-sensor_signal_28 = AnalogIn(board.GP28)  #
+sensor_signal_27 = AnalogIn(board.GP27)  #
 
 #### 2.6 output the sensor reads
 time.sleep(1)
 try:
-    ds18_dp1 = DS18X20(ow_bus_dp, devices_dp[0])
+    ds18_dp1 = DS18X20(ow_bus_dp, devices_dp_1[0])
     temp_dp1 = str(round(ds18_dp1.temperature, 1))
 except:
     temp_dp1 = "NA"
 
 try:
-    ds18_dp2 = DS18X20(ow_bus_dp, devices_dp[1])
+    ds18_dp2 = DS18X20(ow_bus_dp_2, devices_dp_2[0])
     temp_dp2 = str(round(ds18_dp2.temperature, 1))
 except:
     temp_dp2 = "NA"
